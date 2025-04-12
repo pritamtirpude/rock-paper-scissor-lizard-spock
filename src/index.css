@@ -1,0 +1,93 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-dark: hsl(229, 25%, 31%);
+  --color-labelScore: hsl(229, 64%, 46%);
+  --color-headerOutline: hsl(217, 16%, 45%);
+  --color-scissor-from: hsl(39, 89%, 49%);
+  --color-scissor-to: hsl(40, 84%, 53%);
+  --color-paper-from: hsl(230, 89%, 62%);
+  --color-paper-to: hsl(230, 89%, 65%);
+  --color-rock-from: hsl(349, 71%, 52%);
+  --color-rock-to: hsl(349, 70%, 56%);
+  --color-lizard-from: hsl(261, 73%, 60%);
+  --color-lizard-to: hsl(261, 72%, 63%);
+  --color-spock-from: hsl(189, 59%, 53%);
+  --color-spock-to: hsl(189, 58%, 57%);
+
+  --inset-shadow-md: inset 0 2px 3px rgba(224, 113, 9, 0.25);
+
+  --text-regular: 16px;
+  --text-regular--letter-spacing: 2.5px;
+
+  --text-score: 64px;
+  --text-score--line-height: 64px;
+  --text-score--letter-spacing: 0px;
+
+  --text-title: 40px;
+  --text-title--line-height: 32px;
+  --text-title--letter-spacing: 0px;
+
+  --text-subtitle: 24px;
+  --text-subtitle--line-height: 32px;
+  --text-subtitle--letter-spacing: 3px;
+
+  --text-rule: 32px;
+  --text-rule--line-height: 32px;
+  --text-rule--letter-spacing: 0px;
+}
+
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src: url('/assets/fonts/BarlowSemiCondensed-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Barlow Semi Condensed';
+  src: url('/assets/fonts/BarlowSemiCondensed-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal;
+}
+
+html,
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  background: linear-gradient(to bottom, hsl(214, 47%, 23%), hsl(237, 49%, 15%))
+    no-repeat;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.btn-scissor-inner-outer-shadow {
+  box-shadow:
+    0rem 0.4rem 0rem #c76c1b,
+    inset 0rem 0.2em 0.2rem 0.2rem #babfd4;
+}
+
+.btn-spock-inner-outer-shadow {
+  box-shadow:
+    0rem 0.4rem 0rem #2d8dab,
+    inset 0rem 0.2em 0.2rem 0.2rem #babfd4;
+}
+
+.btn-lizard-inner-outer-shadow {
+  box-shadow:
+    0rem 0.4rem 0rem #5f37a8,
+    inset 0rem 0.2em 0.2rem 0.2rem #babfd4;
+}
+
+.btn-paper-inner-outer-shadow {
+  box-shadow:
+    0rem 0.4rem 0rem #2a45c2,
+    inset 0rem 0.2em 0.2rem 0.2rem #babfd4;
+}
+
+.btn-rock-inner-outer-shadow {
+  box-shadow:
+    0rem 0.4rem 0rem #9d1634,
+    inset 0rem 0.2em 0.2rem 0.2rem #babfd4;
+}
