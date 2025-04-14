@@ -1,4 +1,6 @@
 import { motion } from 'motion/react';
+import iconClose from '../../assets/images/icon-close.svg';
+import rulesImage from '../../assets/images/image-rules-bonus.svg';
 import { cn } from '../../lib/util';
 import { useGameStore } from '../../store/game-store';
 
@@ -33,13 +35,14 @@ const Rules = () => {
               className="cursor-pointer"
               onClick={() => setIsRulesOpen(false)}
             >
-              <img src="/src/assets/images/icon-close.svg" />
+              <img src={iconClose} alt="icon close" />
             </button>
           </div>
         </div>
         <div>
           <img
-            src="/src/assets/images/image-rules-bonus.svg"
+            src={rulesImage}
+            alt="rules image"
             className="aspect-square size-full"
           />
         </div>
@@ -48,7 +51,7 @@ const Rules = () => {
             className="cursor-pointer"
             onClick={() => setIsRulesOpen(false)}
           >
-            <img src="/src/assets/images/icon-close.svg" />
+            <img src={iconClose} alt="icon close" />
           </button>
         </div>
       </div>
