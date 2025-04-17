@@ -29,9 +29,9 @@ A modern and fun twist on the classic game! This project is built with **React**
 
 ## 📸 Screenshots
 
-| Desktop View                                 | Mobile View                                   |
-| -------------------------------------------- | --------------------------------------------- |
-| ![Desktop Screenshot](./public/wide-one.png) | ![Mobile Screenshot](./public/narrow-one.png) |
+| Desktop View                                 | Mobile View                               |
+| -------------------------------------------- | ----------------------------------------- |
+| ![Desktop Screenshot](./public/wide-one.png) | ![Mobile Screenshot](./public/mobile.png) |
 
 ---
 
